@@ -110,3 +110,30 @@ h3 {
   color: #1f2937;
   font-weight: 200;
 }
+
+/* Quote Section */
+.quote-content {
+  background-color: #e5e7eb;
+  padding: 56px 106px;
+}
+
+.quote {
+  width: 75%;
+  margin: auto;
+}
+
+.quote p {
+  color: #1f2937;
+}
+
+.quote p:first-child {
+  font-size: 32px;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.quote p:last-child {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: right;
+}
