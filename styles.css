@@ -48,7 +48,8 @@ h3 {
   font-size: x-large;
 }
 
-.header {
+.header,
+.footer {
   padding: 0 106px;
   background-color: #1f2937;
   display: flex;
@@ -136,4 +137,40 @@ h3 {
   font-size: 24px;
   font-weight: bold;
   text-align: right;
+}
+
+.signup-content {
+  padding: 56px 106px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-to-action {
+  padding: 36px 106px;
+  background-color: #3882f6;
+  border-radius: 10px;
+  display: flex;
+  gap: 26px;
+}
+
+.action-header {
+  margin: 0;
+}
+
+.signup {
+  color: white;
+  background-color: #3882f6;
+  border-radius: 6px;
+  border: 1px solid white;
+  padding: 2px 20px;
+}
+
+/* Footer */
+
+.footer {
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
